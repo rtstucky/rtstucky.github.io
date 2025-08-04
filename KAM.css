@@ -18,18 +18,19 @@ body, html {
   right: 0;
   width: 30%;
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   background: rgb(0, 0, 0);
   padding: 2em;
   /* box-shadow: -2px 0 5px rgba(0,0,0,0.1); */
 }
 
 .chapter {
-  margin-bottom: 60vh;
+  margin-bottom: 60vh; 
 }
 
 .labels {
-  font-size: 20px;
+  font-size: 10px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 .highlight-word {
