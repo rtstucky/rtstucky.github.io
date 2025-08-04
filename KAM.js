@@ -39,11 +39,17 @@ const introCenter = introBounds.getCenter();
 // Initialize Leaflet map at Introduction centroid
 const map = L.map('map').setView([introCenter.lat, introCenter.lng], 18);
 
-// Add base tile layer
+/* Add base tile layer
 L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png', {
   maxZoom: 20,
   attribution: '...'
+}).addTo(map); */
+
+L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png?api_key=4f4c222f-cf1d-412d-a93a-e8bdaf1e4a3d', {
+  maxZoom: 20,
+  attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://stamen.com/">Stamen Design</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+
 
 // Add only the Introduction layer initially
 introLayer.addTo(map);
