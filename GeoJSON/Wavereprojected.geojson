@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wave",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 103602, "PIN": "00118792", "AIN": "087125210220801000 ", "ParcAreaTP": "Base Parcel", "RDParDocID": "000008700003", "MultUnitTP": " ", "MultSubNO": " ", "RDMulDocID": " ", "MultBldgNO": " ", "MultUnitNO": " ", "UnitLevel": 0, "UnitStatus": " ", "ParcSqFTC": 29999.69829, "ParcAcresC": 0.68869, "Prop_Addr": "650 E 2ND ST N", "Prop_City": "WICHITA", "Prop_zip": "67202", "Legal": "LARGE LOTS 16-18 EXC N 90 FT LOT 185TH NOW SANTA FE AVE J. R. MEAD'S ADD.", "Class": "C", "LandVal": 120000.0, "ImprVal": 1320300.0, "TotVal": 1440300.0, "LandAsmtAM": 30000.0, "ImprAsmtAM": 330075.0, "TotAsmtAM": 360075.0, "TaxUnit": "6755", "YrBuilt": 2018, "SFLA": null, "TotalSF": 7704.0 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -97.33096652607658, 37.689905490853377 ], [ -97.330482689871289, 37.689905437538506 ], [ -97.330485426139646, 37.690303650228302 ], [ -97.330486463693788, 37.690454695273331 ], [ -97.330970302594039, 37.690454749298681 ], [ -97.331004862579647, 37.690454752852993 ], [ -97.331004674831732, 37.690427290205037 ], [ -97.331003919348589, 37.690317438800754 ], [ -97.331001085163876, 37.689905494407661 ], [ -97.33096652607658, 37.689905490853377 ] ] ] ] } }
+]
+}

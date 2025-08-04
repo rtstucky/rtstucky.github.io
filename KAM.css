@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  color: white
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+}
+
+#story {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100vh;
+  overflow-y: scroll;
+  background: rgb(0, 0, 0);
+  padding: 2em;
+  /* box-shadow: -2px 0 5px rgba(0,0,0,0.1); */
+}
+
+.chapter {
+  margin-bottom: 60vh;
+}
+
+.labels {
+  font-size: 20px;
+}
+
+.highlight-word {
+  color: #3ad5c6; 
+  font-weight: bold;
+}
